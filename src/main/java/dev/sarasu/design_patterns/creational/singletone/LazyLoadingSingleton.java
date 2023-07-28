@@ -33,7 +33,6 @@ public class LazyLoadingSingleton {
 				if (instance == null) {
 					instance = new LazyLoadingSingleton();
 				}
-
 			}
 		}
 
